@@ -1,0 +1,186 @@
+* {
+    --font-color: white;
+    --font-hover-color: #eee;
+    --main-color: rgba(0,138,221,1);
+    --second-color: rgb(70, 179, 247);
+    --third-color: rgb(117, 199, 250);
+    --fourth-color: rgb(163, 217, 250);
+    --navbar-color: rgba(0, 0, 0, 0.126);
+    --end-color: rgb(83, 103, 115);
+    margin:0;
+    padding:0;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: var(--end-color);
+}
+
+h3 {
+    font-size:40px
+}
+h4 {
+    font-size:30px
+}
+
+h5 {
+    font-size:10px
+}
+
+#canvas {
+    filter:url('#goo');
+}
+.material-symbols-outlined {
+    color: var(--font-color);
+    overflow:hidden;
+}
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.layer {
+    height: 100vh; 
+}
+.spacer {
+    z-index: -1;
+    background-color: var(--main-color);
+}
+.scroll {
+    z-index: -1;
+    background-color: var(--main-color);
+}
+.start {
+    overflow:hidden;
+    text-align:center;
+    position:absolute;
+    width:100vw;
+    background-color: var(--main-color);
+}
+
+.quote {
+    position:absolute;
+    color: var(--font-color);
+    font-size:50px;
+    top:40vh;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--navbar-color);;
+  height: 65px;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  color: var(--font-color);
+  font-size:50px;
+  float: left;
+  font-weight: 500;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 20px;
+  position: relative;
+}
+
+nav a {
+  color: var(--font-color);;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: var(--font-hover-color);
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: var(--font-color);;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+.work {
+    color:var(--font-color);
+    background-color: var(--second-color);
+    font-size:50px;
+}
+.block {
+    text-align:center;
+    display:block;
+}
+
+.projects {
+    background-color: var(--third-color);
+}
+
+.contact {
+    background-color: var(--fourth-color);
+}
+
+.end {
+    color: var(--font-color);
+    font-size:25px;
+    margin-top:40px;
+}
+.end2 {
+    color: #999;
+    font-size:25px;
+    margin-top:100px;
+}
+
+.myProjects {
+    height:50vh;
+    width:auto;
+}
+
+.projecttext {
+    color: var(--font-color);
+    font-size: 50px;
+}
+
+.contakt {
+    font-size:40px;
+    color: var(--font-color);
+    margin: 2px;
+}
