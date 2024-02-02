@@ -1,15 +1,16 @@
 * {
-    --font-color: white;
+    --font-color: #000000;
     --font-hover-color: #eee;
-    --main-color: rgba(0,138,221,1);
-    --second-color: rgb(70, 179, 247);
-    --third-color: rgb(117, 199, 250);
+    --main-color: rgb(187, 225, 250);
+    --second-color: rgb(171, 223, 255);
+    --third-color: rgb(154, 215, 255);
     --fourth-color: rgb(163, 217, 250);
-    --navbar-color: rgba(0, 0, 0, 0.126);
-    --end-color: rgb(83, 103, 115);
+    --navbar-color: rgba(0, 0, 0, 0.25);
+    --alternate-navbar-color: rgb(200,230,255);
+    --end-color: rgb(219, 230, 255);
     margin:0;
     padding:0;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+
     overflow-x: hidden;
 }
 
@@ -32,9 +33,6 @@ h5 {
     font-size:10px
 }
 
-#canvas {
-    filter:url('#goo');
-}
 .material-symbols-outlined {
     color: var(--font-color);
     overflow:hidden;
@@ -55,20 +53,8 @@ h5 {
     z-index: -1;
     background-color: var(--main-color);
 }
-.start {
-    overflow:hidden;
-    text-align:center;
-    position:absolute;
-    width:100vw;
-    background-color: var(--main-color);
-}
 
-.quote {
-    position:absolute;
-    color: var(--font-color);
-    font-size:50px;
-    top:40vh;
-}
+
 .container {
 	width: 80%;
 	margin: 0 auto;
@@ -79,7 +65,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background: var(--navbar-color);;
+  background: var(--alternate-navbar-color);
   height: 65px;
 }
 
@@ -174,13 +160,97 @@ nav a:hover::before {
     width:auto;
 }
 
-.projecttext {
+.me_header{
     color: var(--font-color);
     font-size: 50px;
 }
 
-.contakt {
-    font-size:40px;
+.me_text {
     color: var(--font-color);
-    margin: 2px;
+    font-size: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.photo-box {
+    width: 100vw;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
+}
+.photo {
+    width: 20vw;
+    height: 20vw;
+    margin-left: 5%;
+    box-shadow: 5px 5px 5px black;
+    transition: transform 0.5s;
+}
+
+.photo:hover {
+    transform: scale(1.2);
+
+}
+
+
+.photos {
+    width: 100vw;
+    height: 100vh;
+}
+
+.photo-display {
+
+    height: 450px;
+    width: 800px;
+}
+
+/* relevant styles */
+.img-wrap {
+    position: relative;
+    top: 10vh;
+    margin: 1% 1% 1% 10%;
+    height: auto;
+    width: 800px;
+
+}
+
+.img-description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 5px;
+    right: 0;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    text-align: left;
+    font-size: larger;
+    z-index: 32;
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+
+.img-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+    opacity: 0;
+    height: 450px;
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+
+.img-wrap:hover .img-description {
+    visibility: visible;
+    opacity: 1;
+}
+.img-wrap:hover .img-background {
+    visibility: visible;
+    opacity: 1;
 }
