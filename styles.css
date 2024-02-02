@@ -70,7 +70,7 @@ header {
   top: 0;
   width: 100vw;
   background: var(--alternate-navbar-color);
-  height: 8vh;
+  height: 6vh;
 }
 
 header::after {
@@ -81,7 +81,7 @@ header::after {
 
 .logo {
   color: var(--font-color);
-  font-size:4vw;
+  font-size:4vh;
   float: left;
   font-weight: 500;
 }
@@ -107,7 +107,7 @@ nav a {
   color: var(--font-color);;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 2vw;
+  font-size: 2vh;
 }
 
 nav a:hover {
