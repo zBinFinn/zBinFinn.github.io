@@ -27,14 +27,14 @@ body {
 }
 
 h3 {
-    font-size:40px
+    font-size:4vw
 }
 h4 {
-    font-size:30px
+    font-size:2.5vw
 }
 
 h5 {
-    font-size:10px
+    font-size:1vw
 }
 
 .material-symbols-outlined {
@@ -65,7 +65,7 @@ h5 {
 }
 
 header {
-  z-index: 10000;
+  z-index: 100;
   position: fixed;
   top: 0;
   width: 100%;
@@ -81,7 +81,7 @@ header::after {
 
 .logo {
   color: var(--font-color);
-  font-size:50px;
+  font-size:4vw;
   float: left;
   font-weight: 500;
 }
@@ -107,7 +107,7 @@ nav a {
   color: var(--font-color);;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 2vw;
 }
 
 nav a:hover {
@@ -130,11 +130,6 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
-.work {
-    color:var(--font-color);
-    background-color: var(--second-color);
-    font-size:50px;
-}
 .block {
     text-align:center;
     display:block;
@@ -147,26 +142,14 @@ nav a:hover::before {
 .contact {
     background-color: var(--fourth-color);
 }
-
-.end {
-    color: var(--font-color);
-    font-size:25px;
-    margin-top:40px;
-}
-.end2 {
-    color: #999;
-    font-size:25px;
-    margin-top:100px;
-}
-
 .me_header{
     color: var(--font-color);
-    font-size: 50px;
+    font-size: 3.5vw;
 }
 
 .me_text {
     color: var(--font-color);
-    font-size: 30px;
+    font-size: 2.5vw;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -224,7 +207,7 @@ nav a:hover::before {
     opacity: 0;
     text-align: left;
     font-size: larger;
-    z-index: 32;
+    z-index: 1;
 
     /* transition effect. not necessary */
     transition: opacity .2s, visibility .2s;
