@@ -1,12 +1,12 @@
 * {
     --font-color: #000000;
-    --font-hover-color: #999999;
+    --font-hover-color: #444444;
     --main-color: #FFFFFF;
     --second-color: #FFFFFF;
     --third-color: #FFFFFF;
     --fourth-color: #FFFFFF;
     --navbar-color: rgba(0, 0, 0, 0.25);
-    --alternate-navbar-color: rgb(200,230,255);
+    --alternate-navbar-color: rgb(192, 192, 192);
     --end-color: #FFFFFF;
     margin:0;
     padding:0;
@@ -249,4 +249,13 @@ nav a:hover::before {
         background: var(--alternate-navbar-color);
         height: 10vh;
     }
+}
+
+#instagram_link {
+    transition: transform 0.5s;
+
+}
+
+#instagram_link:hover {
+    transform: scale(1.35);
 }

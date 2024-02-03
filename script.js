@@ -15,3 +15,8 @@ let c_category_image = document.getElementById("photo-2")
 c_category_image.addEventListener("click", () => {
     location.replace("./example_photos_color.html");
 })
+
+let insta_link_image = document.getElementById("instagram_link")
+insta_link_image.addEventListener("click", () => {
+    location.replace("https://www.instagram.com")
+})
