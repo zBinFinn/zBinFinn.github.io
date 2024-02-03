@@ -82,7 +82,7 @@ header::after {
 .logo {
     color: var(--font-color);
 
-    font-size:300%;
+    font-size:xx-large;
     float: left;
     font-weight: 500;
 
