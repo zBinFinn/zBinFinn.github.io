@@ -240,17 +240,6 @@ nav a:hover::before {
     opacity: 1;
 }
 
-@media only screen and (max-device-width: 480px) {
-    header {
-        z-index: 100;
-        position: fixed;
-        top: 0;
-        width: 100vw;
-        background: var(--alternate-navbar-color);
-        height: 10vh;
-    }
-}
-
 #instagram_link {
     transition: transform 0.5s;
 
