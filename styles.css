@@ -27,14 +27,14 @@ body {
 }
 
 h3 {
-    font-size:4vw
+    font-size:40px
 }
 h4 {
-    font-size:2.5vw
+    font-size:30px
 }
 
 h5 {
-    font-size:1vw
+    font-size:20px
 }
 
 .material-symbols-outlined {
@@ -47,7 +47,7 @@ h5 {
     align-items: center
 }
 .layer {
-    height: 100vh; 
+    height: 100vh;
 }
 .spacer {
     z-index: -1;
@@ -70,7 +70,7 @@ header {
   top: 0;
   width: 100vw;
   background: var(--alternate-navbar-color);
-  height: 6vh;
+  height: 60px;
 }
 
 header::after {
@@ -80,10 +80,12 @@ header::after {
 }
 
 .logo {
-  color: var(--font-color);
-  font-size:4vh;
-  float: left;
-  font-weight: 500;
+    color: var(--font-color);
+
+    font-size:300%;
+    float: left;
+    font-weight: 500;
+
 }
 
 nav {
@@ -98,8 +100,8 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 7vw;
-  padding-top: 2vh;
+  margin-left: 3vw;
+  padding-top: 20px;
   position: relative;
 }
 
@@ -107,7 +109,7 @@ nav a {
   color: var(--font-color);;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 2.5vw;
+  font-size: large;
 }
 
 nav a:hover {
@@ -193,7 +195,7 @@ nav a:hover::before {
     margin: 1% 1% 1% 10%;
     height: auto;
     width: 800px;
-
+    overflow: hidden;
 }
 
 .img-description {
