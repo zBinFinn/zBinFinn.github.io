@@ -1,6 +1,6 @@
 * {
     --font-color: #000000;
-    --font-hover-color: #eee;
+    --font-hover-color: #999999;
     --main-color: rgb(187, 225, 250);
     --second-color: rgb(171, 223, 255);
     --third-color: rgb(154, 215, 255);
@@ -70,7 +70,7 @@ header {
   top: 0;
   width: 100vw;
   background: var(--alternate-navbar-color);
-  height: 60px;
+  height: 80px;
 }
 
 header::after {
@@ -82,7 +82,7 @@ header::after {
 .logo {
     color: var(--font-color);
 
-    font-size:xx-large;
+    font-size:xxx-large;
     float: left;
     font-weight: 500;
     padding-top: 10px
@@ -101,7 +101,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 3vw;
+  margin-left: 6vw;
   padding-top: 20px;
   position: relative;
 }
@@ -110,7 +110,7 @@ nav a {
   color: var(--font-color);;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: large;
+  font-size: xx-large;
 }
 
 nav a:hover {
