@@ -60,7 +60,7 @@ h5 {
 
 
 .container {
-	width: 80%;
+	width: 95%;
 	margin: 0 auto;
 }
 
@@ -85,6 +85,7 @@ header::after {
     font-size:xx-large;
     float: left;
     font-weight: 500;
+    padding-top: 10px
 
 }
 
