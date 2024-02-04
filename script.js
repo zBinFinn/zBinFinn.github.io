@@ -20,3 +20,10 @@ let insta_link_image = document.getElementById("instagram_link")
 insta_link_image.addEventListener("click", () => {
     location.assign("https://www.instagram.com")
 })
+
+let images = document.querySelectorAll(".photo")
+images.forEach((image) => {
+    image.addEventListener("contextmenu", (e) => {
+        e.preventDefault();
+    })
+})

@@ -144,6 +144,9 @@ nav a:hover::before {
 
 .contact {
     background-color: var(--fourth-color);
+    height: 135px;
+    width: 135px;
+    overflow: hidden;
 }
 .me_header{
     color: var(--font-color);
@@ -249,6 +252,8 @@ nav a:hover::before {
 }
 
 #instagram_link {
+    height: 100px;
+    width: 100px;
     transition: transform 0.5s;
 
 }
