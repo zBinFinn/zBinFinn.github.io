@@ -185,6 +185,7 @@ nav a:hover::before {
 }
 
 .photo-display {
+    overflow: hidden;
 
     height: 450px;
     width: 800px;
