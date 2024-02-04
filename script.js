@@ -8,15 +8,15 @@ window.addEventListener('scroll', () => {
 
 let bw_category_image = document.getElementById("photo-1")
 bw_category_image.addEventListener("click", () => {
-    location.replace("./example_photos_blackwhite.html");
+    location.assign("./example_photos_blackwhite.html");
 })
 
 let c_category_image = document.getElementById("photo-2")
 c_category_image.addEventListener("click", () => {
-    location.replace("./example_photos_color.html");
+    location.assign("./example_photos_color.html");
 })
 
 let insta_link_image = document.getElementById("instagram_link")
 insta_link_image.addEventListener("click", () => {
-    location.replace("https://www.instagram.com")
+    location.assign("https://www.instagram.com")
 })

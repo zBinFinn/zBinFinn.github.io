@@ -47,7 +47,7 @@ h5 {
     align-items: center
 }
 .layer {
-    height: 100vh;
+
 }
 .spacer {
     z-index: -1;
@@ -135,7 +135,7 @@ nav a:hover::before {
 }
 .block {
     text-align:center;
-    display:block;
+    display: block;
 }
 
 .projects {
@@ -180,7 +180,8 @@ nav a:hover::before {
 
 .photos {
     width: 100vw;
-    height: 100vh;
+    margin-bottom: 20%;
+    margin-top: 100px;
 }
 
 .photo-display {
