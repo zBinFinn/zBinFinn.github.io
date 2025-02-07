@@ -16,6 +16,49 @@
     background-color: transparent;
 }
 
+#schwerpunkte {
+    padding-top: 5%;
+}
+
+#schwerpunkte-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.schwerpunkte-list {
+    font-family: var(--normal-font), serif;
+    width: 40%;
+}
+
+#schwerpunkte-left {
+    position: relative;
+    right: 2%;
+}
+
+#schwerpunkte-right {
+    position: relative;
+    left: 2%;
+}
+
+#schwerpunkte-header {
+    font-family: var(--title-font), serif;
+    text-align: center;
+}
+
+#schwerpunkte-description {
+    font-family: var(--normal-font), serif;
+    text-align: center;
+    line-height: 150%;
+}
+
+.vertical {
+    float: left;
+    height: 100%;
+    width: 1px;
+    background-color: black;
+}
+
 #background {
     position: fixed;
     background-color: var(--black);
@@ -28,6 +71,7 @@
     padding-top: 5%;
     padding-left: 2%;
     padding-right: 2%;
+    padding-bottom: 5%;
 }
 
 #meine-praxis-header {
@@ -71,8 +115,8 @@
     left: 50%;
     width: 50%;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: flex-start; /* Align items to the left */
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 #intro-text {
