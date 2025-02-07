@@ -16,6 +16,15 @@
     background-color: transparent;
 }
 
+#schwerpunkte-line-padding {
+    width: 2px;
+}
+
+#schwerpunkte-wrapper > .vertical-line {
+    height: 100vh;
+    width: 2px;
+}
+
 #schwerpunkte {
     padding-top: 5%;
 }
@@ -24,6 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 120%;
 }
 
 .schwerpunkte-list {
@@ -50,13 +60,6 @@
     font-family: var(--normal-font), serif;
     text-align: center;
     line-height: 150%;
-}
-
-.vertical {
-    float: left;
-    height: 100%;
-    width: 1px;
-    background-color: black;
 }
 
 #background {
@@ -163,7 +166,6 @@
 }
 
 .button:hover {
-
     background-color: white;
 }
 
@@ -175,6 +177,10 @@
 
 .green {
     background-color: var(--green);
+}
+
+.red {
+    background-color: var(--red);
 }
 
 .text-normal {
