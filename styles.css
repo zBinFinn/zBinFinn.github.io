@@ -8,6 +8,28 @@
     --title-font: Arial, Helvetica, sans-serif;
 }
 
+* {
+    background-color: white;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+#meine-praxis {
+    padding-top: 5%;
+    padding-left: 2%;
+}
+
+#meine-praxis-header {
+    color: var(--red);
+    font-family: var(--title-font), serif;
+}
+
+#meine-praxis-text {
+
+}
+
 #introduction-text {
     padding-top: 5%;
     text-align: center;
@@ -72,6 +94,7 @@
     top: 25%;
     font-family: var(--normal-font), serif;
     font-size: 125%;
+    background-color: transparent;
 }
 
 .button:hover > .button-text {
