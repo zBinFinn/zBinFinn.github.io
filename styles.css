@@ -16,9 +16,18 @@
     background-color: transparent;
 }
 
+#background {
+    position: fixed;
+    background-color: var(--black);
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+}
+
 #meine-praxis {
     padding-top: 5%;
     padding-left: 2%;
+    padding-right: 2%;
 }
 
 #meine-praxis-header {
@@ -45,6 +54,10 @@
 #page {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    background-color: transparent;
 }
 
 #intro-div {
@@ -69,7 +82,7 @@
     font-size: 30px;
     font-weight: bold;
     color: var(--white);
-    margin-left: 5%;
+    padding-left: 5%;
     height: 20%;
     width: 75%;
 }
